@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>To-Do List</h2>
+        <img src="./images/to-do-list.png" alt="list pic" />
+      </header>
+
+      <main>
+        <form action="">
+          <label for="addingTask"></label>
+          <input
+            type="text"
+            name="addingTask"
+            class="addingTask"
+            id="addingTask"
+            autocomplete="off"
+            autocorrect="off"
+            placeholder="Add your task..."
+          />
+
+          <button>Add</button>
+        </form>
+      </main>
+
+      <footer>
+        <div class="foot">
+          <ul class="list-container"></ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
