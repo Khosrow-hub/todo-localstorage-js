@@ -26,17 +26,11 @@ A minimalist, persistent todo list built with vanilla JavaScript, featuring loca
 - Browser LocalStorage API
 
 ## Project Structure
-todo-list/
-├── index.html
-├── style.css
-├── index.js
-├── images/
-│ ├── to-do-list.png
-│ ├── dry-clean.png
-│ ├── check.png
-│ ├── remove.png
-│ ├── remove2.png
-│ └── screenshot_app.png
-├── README.md
-├── .gitignore
-└── LICENSE
+index.html
+style.css
+index.js
+images/
+README.md
+.gitignore
+LICENSE
+
